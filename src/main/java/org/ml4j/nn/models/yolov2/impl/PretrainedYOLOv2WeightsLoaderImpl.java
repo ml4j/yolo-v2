@@ -55,7 +55,7 @@ public class PretrainedYOLOv2WeightsLoaderImpl implements YOLOv2WeightsLoader {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(DefaultYOLOv2Factory.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(PretrainedYOLOv2WeightsLoaderImpl.class);
 
 	private MatrixFactory matrixFactory;
 	private ClassLoader classLoader;
